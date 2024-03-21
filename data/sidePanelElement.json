@@ -1,0 +1,35 @@
+[
+    {
+        "id":1,
+        "elem":"Sentiment"
+
+    },
+    {
+        "id":2,
+        "elem":"Market"
+
+    },
+    {
+        "id":3,
+        "elem":"Sector"
+
+    },
+    {
+        "id":4,
+        "elem":"Watchlist"
+
+    }
+    ,
+    {
+        "id":5,
+        "elem":"Events"
+
+    }
+    ,
+    {
+        "id":6,
+        "elem":"News/Interview"
+
+    }
+
+]

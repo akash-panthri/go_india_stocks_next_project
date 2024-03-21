@@ -1,0 +1,52 @@
+[
+    {
+        "id":1,
+      "story_title": "Medicine Kit",
+      "story_detail": "Vestibulum lacinia massa nec viverra vulputate. Cras a ante sem. Morbi interdum lobortis lacus id ullamcorper. Integer pellentesque fringilla libero quis cursus. Curabitur vitae dictum nibh, non accumsan turpis."
+    },
+    {
+        "id":2,
+      "story_title": "Computer Device",
+      "story_detail": "Maecenas aliquet vitae diam vel aliquet. Aliquam a ligula ornare, ullamcorper mauris a, tempor justo. Praesent elementum nibh vitae metus dignissim, vel suscipit lorem volutpat. "
+    },
+    {
+        "id":3,
+      "story_title": "Fitness Rig",
+      "story_detail": "Duis sodales dignissim leo vitae convallis. Praesent rhoncus pulvinar lectus quis suscipit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nunc ut elementum neque."
+    },
+    {
+        "id":4,
+      "story_title": "Biking Attachment",
+      "story_detail": "In eu interdum sapien. In scelerisque hendrerit sem ac mollis. Sed rutrum lobortis erat finibus aliquam. Sed in lacus ante. Nam eget aliquet magna. "
+    },
+    {
+        "id":5,
+      "story_title": "Beach Attachment",
+      "story_detail": "Nullam aliquam quam ut velit congue, at vestibulum lacus laoreet. Donec blandit eros quis nunc facilisis, eu vestibulum nulla eleifend. Aenean vel mollis eros, ut suscipit urna."
+    },
+    {
+        "id":6,
+      "story_title": "Jewelry Mechanism",
+      "story_detail": "Proin finibus risus ut dui vulputate malesuada. Maecenas aliquet egestas aliquet. Morbi dignissim ipsum orci, sit amet malesuada tortor venenatis tempor. Pellentesque molestie elementum nisl, at finibus nisi rutrum quis. "
+    },
+    {
+        "id":7,
+      "story_title": "Vitamin Gadget",
+      "story_detail": "Sed non fermentum erat, et venenatis ipsum. Aliquam eleifend imperdiet volutpat. Aliquam egestas ipsum mauris, et commodo dui consectetur quis. Vestibulum rhoncus nulla quis feugiat interdum. In imperdiet purus metus, id condimentum lectus ultricies vel. "
+    },
+    {
+        "id":8,
+      "story_title": "Truck Implement",
+      "story_detail": "Phasellus vehicula sem in nisl consectetur, vel tincidunt tortor blandit. Proin gravida mauris vel sem lacinia mattis. Sed in rhoncus lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ex erat, auctor ac facilisis at, bibendum at nisi. Etiam interdum odio nec suscipit finibus."
+    },
+    {
+        "id":9,
+      "story_title": "Party Whatchamacallit",
+      "story_detail": "Curabitur fringilla lacus ac lacus dignissim condimentum mollis in est. Aliquam consectetur, nulla et accumsan eleifend, erat tellus cursus nulla, at faucibus libero lacus nec ante. Aliquam et ex at lorem ornare mollis. In hac habitasse platea dictumst."
+    },
+    {
+        "id":10,
+      "story_title": "Medicine Apparatus",
+      "story_detail": "Cras suscipit erat sapien, id elementum erat porta eget. Donec sagittis auctor nisi, id bibendum neque ultrices eget. Suspendisse potenti. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+    }
+  ]
