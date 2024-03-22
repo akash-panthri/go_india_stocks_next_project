@@ -18,8 +18,8 @@ export default function HeadLeft({ discussionFormElement }) {
     </div>
       <div className="flex flex-row items-center flex-auto pr-4">
 
-      <div className="pr-2 text-xs sm:text-base font-normal sm:font-semibold">{discussionFormElement.full_name}</div>
-      <div className="bg-blue-600 w-max text-white my-2 px-2 py-1 rounded-full text-center ">
+      <div className=" pr-0.5 sm:pr-2 text-xs sm:text-base font-normal sm:font-semibold">{discussionFormElement.full_name}</div>
+      <div className="bg-blue-600 w-28 text-white my-2 px-2 py-1 rounded-full text-center ">
         Sector {discussionFormElement.sector_number}
       </div>
       </div>
