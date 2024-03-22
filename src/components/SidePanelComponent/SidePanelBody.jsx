@@ -11,7 +11,7 @@ export default function SidePanelBody() {
         <button
           type="button"
           class="flex items-center w-full my-5 px-2  text-white transition duration-75 rounded-lg bg-[#142942] 
-          active:bg-[#142942] hover:bg-[#0b1c30] text-2xl"
+          active:bg-[#142942] hover:bg-[#0b1c30] text-xs sm:text-2xl"
          
         >
           <BiCommentDetail className="text-2xl" />

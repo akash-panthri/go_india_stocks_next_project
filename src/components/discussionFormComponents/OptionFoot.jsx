@@ -19,7 +19,7 @@ export default function OptionFoot({ discussionFormElement }) {
   }
  
   return (
-    <div className="flex justify-between sm:mx-40 mx-7 px-4">
+    <div className="flex justify-between mx-3 sm:mx-40 px-4 sm:px-4">
       <span className="flex justify-evenly flex-row ">
       <span className="sm:text-3xl text-base font-normal sm:font-semibold sm:mr-3 mr-1 select-none" onClick={() => {
             

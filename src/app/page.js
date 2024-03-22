@@ -6,13 +6,24 @@ import { FaCaretRight, FaCaretLeft } from "react-icons/fa";
 import SidePanel from "@/components/SidePanelComponent/SidePanel";
 import DiscussionForm from "@/components/discussionFormComponents/DiscussionFormContainer";
 import MarketStories from "@/components/marketStoriesComponents/MarketStoriesContainer";
-import { useState } from "react";
+import { useState ,createContext } from "react";
 import HeaderTab from "@/components/HeaderTab";
 
+
+
+
+export const Maincontext = createContext();
 export default function Home() {
+  const tabArray = ["Discussion Forum","Market Stories"]
   const [showSidePanel, setShowSidePanel] = useState(false);
   const [currTab, setCurrTab] = useState("Discussion Forum")
+
+  const mainContextValue = {
+    showSidePanel
+  };
+
   return (
+    <Maincontext.Provider value={mainContextValue}>
     <main className="">
       {showSidePanel && <SidePanel />}
       <div
@@ -31,9 +42,13 @@ export default function Home() {
 
         <div className="w-full flex flex-row">
 
-         <HeaderTab tabName="Discussion Forum" currTab={currTab} setCurrTab={setCurrTab} />
-         <HeaderTab tabName="Market Stories" currTab={currTab} setCurrTab={setCurrTab} />
-        
+        {
+          tabArray.map(tabname=>{
+            
+            return <HeaderTab key={tabname} tabName={tabname} currTab={currTab} setCurrTab={setCurrTab} />
+          })
+        }
+
         </div>
         <div className="w-full flex flex-row">
 
@@ -42,5 +57,6 @@ export default function Home() {
         </div>
       </div>
     </main>
+    </Maincontext.Provider>
   );
 }

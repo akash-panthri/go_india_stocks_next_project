@@ -9,7 +9,7 @@ export default function SidePanelHead() {
           <HiUser className='text-3xl rounded-full' />
           <span>Hello User</span>
         </div>
-        <span className="font-bold px-5 text-4xl">
+        <span className="font-bold px-5 text-3xl">
           <GoBell />
         </span>
       </div>
